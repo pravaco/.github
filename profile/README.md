@@ -1,7 +1,9 @@
 [pravaco](https://prava.co)
 
 API:
-[Computer-use agent control API docs](https://pravaco.github.io/prava-sdk/)
+[CUA Control API docs](https://pravaco.github.io/prava-sdk/)
+[Control API library implementation](https://github.com/pravaco/prava-sdk)
+[Made the control api compatible with existing Claude cua/openai setups by reverse engineering their function calling](https://github.com/pravaco/ca-server)
 
 Models:
 [prava-fc](https://github.com/pravaco/prava-models/tree/master)
