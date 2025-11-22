@@ -5,7 +5,9 @@ API for computer use(prava-sdk, ca-server)
 Models: Grounding+planning hardness for OSWorld. Privately I used codex+extensive planning to benchmark max but OSWorld scores were brittle.
 
 Research: 
+
 a) Edited the vision encoder such that we would show the latest "compiled" screenshot instead of having to re-encode the whole thing again, which worked but was slightly slower
+
 b) re-implemented MSFT's GUI-Actor which essentially trains a small attention head to try predict which patch/region instead of coordinate grounding
 
 -------------------
